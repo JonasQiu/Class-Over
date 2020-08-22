@@ -77,6 +77,7 @@
   padding-right: 2vw;
 }
 .noNav{
+  text-align: center;
     padding-top: 30vh;
   }
 </style>

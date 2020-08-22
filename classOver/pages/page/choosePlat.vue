@@ -58,6 +58,7 @@
     border-radius: 50rpx;
   }
   .noNav{
+    text-align: center;
     padding-top: 30vh;
   }
 </style>

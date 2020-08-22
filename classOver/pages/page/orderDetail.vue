@@ -57,6 +57,7 @@
 
 <style>
 .noNav{
+  text-align: center;
   padding-top: 30vh;
 }
 </style>

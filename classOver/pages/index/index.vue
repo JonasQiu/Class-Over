@@ -1,16 +1,16 @@
 <template>
   <view class="wrap">
-    <h1>根据通行码进行登录</h1>
-    <view class="input-wrap">
-      <view class="phone-text">手机号：</view>
-      <input type="text" @input="inputPhone"  name="phone" class="input" placeholder="请输入手机号"></input>
-    </view>
-    <view class="input-wrap">
-      <view class="pass-text">通行码：</view>
-      <input type="text" @input="inputPassNum" password name="passNum" class="input" placeholder="请输入通行码"></input>
-    </view>
-    <button @click="loginUser" class="bg-blue login">登录</button>
-    </form>
+    <view class="in-wrap">
+      <view class="input-wrap">
+        <view class="phone-text">手机号：</view>
+        <input type="text" @input="inputPhone"  name="phone" class="input" placeholder="请输入手机号"></input>
+      </view>
+      <view class="input-wrap">
+        <view class="pass-text">通行码：</view>
+        <input type="text" @input="inputPassNum" password name="passNum" class="input" placeholder="请输入通行码"></input>
+      </view>
+      <button @click="loginUser" class="bg-blue login">登录</button>
+      </view>
   </view>
 </template>
 
@@ -50,14 +50,17 @@
 </script>
 
 <style>
-  h1{
-    height: 20vh;
-    line-height: 20vh;
-    text-align: center;
-  }
   .wrap{
-    padding: 0 4vw;
-    padding-top: 10vh;
+    margin: 0 4vw;
+    margin-top: 20vh;
+    border-radius: 40px;
+    padding: 4vw;
+    background-color: rgba(255,255,255,.1);
+    box-shadow: -8px -8px 16px -10px #ddd, 8px 8px 16px -10px rgba(0, 0, 0, .15);
+  }
+  .in-wrap{
+    margin-top: 4vh;
+    margin-bottom: 3vh;
   }
   .input-wrap{
     font-size: 18px;
@@ -71,12 +74,13 @@
   .input{
     color: #000;
     height: 6vh;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
     border:1px solid #007AFF;
     padding-left: 4vw;
-    border-radius: 10px;
+    border-radius: 70px;
   }
   .login{
-    margin-top: 4vh;
+    margin-top: 5vh;
+    border-radius: 70px;
   }
 </style>

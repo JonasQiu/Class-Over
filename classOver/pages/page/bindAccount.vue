@@ -124,6 +124,7 @@
     margin-top: 4vh;
   }
   .noNav{
+    text-align: center;
     padding-top: 30vh;
   }
 </style>
