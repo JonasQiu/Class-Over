@@ -4,20 +4,54 @@
 			"path": "pages/index/index",
 			"style": {
 				// "navigationBarTitleText": "uni-app"
+				"backgroundColor":"#9000FF"
 			}
 		},
 		{
-			"path":"pages/page/educationPlat",
+			"path":"pages/page/choosePlat",
 			"style":{}
-		},{
-			"path":"pages/page/publicClass",
-			"style":{}
-		}
-	],
+		},
+        {
+            "path" : "pages/page/bindAccount",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/page/activePage",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/component/return",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/page/orderDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/component/floatNavTo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/component/loading",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/component/tip",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/component/tipText",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
-		// "navigationBarTextStyle": "black",
-		// "navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F0F0F0",
-		"backgroundColor": "#F0F0F0"
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ClassOver",
+		"navigationBarBackgroundColor": "#F0F0F8",
+		"backgroundColor": "#F0F0F0",
+		"navigationStyle":"custom",
+		"app-plus":{
+			"titleView":false
+		}
 	}
 }
