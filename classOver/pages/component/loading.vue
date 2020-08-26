@@ -19,8 +19,11 @@
       },
       isToast: {
         type: Boolean,
-        default:false
+        default:true
       }
+    },
+    onLoad() {
+      console.log(11)
     },
 		data() {
 			return {

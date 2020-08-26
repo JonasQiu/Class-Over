@@ -36,15 +36,15 @@
   .return {
     z-index: 9999;
     position: fixed;
-    width: 70rpx;
-    height: 70rpx;
-    line-height: 70rpx;
+    width: 50upx;
+    height: 50upx;
+    line-height: 50rpx;
     text-align: center;
     background-color: rgba(0,0,0,.5);
     color: #fff;
     border-radius: 50%;
-    top: 7px;
-    left: 10px;
+    top: 3vh;
+    left: 4vw;
     font-size: 40rpx;
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <view>
+  <view class="animation-slide-top">
     <view class="content" v-if="isNav">
       <view class="item" @click="navToEdu" style="margin-bottom: 4vh;">安全教育平台</view>
       <view class="item" @click="navToPub">公需课平台</view>
@@ -20,7 +20,7 @@
     onLoad(e) {
       this.isNav=e.isNav;
     },
-		methods: {
+	methods: {
       navToEdu(){
         uni.navigateTo({
           url:`./bindAccount?plat=0&isNav=${this.isNav}`
@@ -31,6 +31,7 @@
           url:`./bindAccount?plat=1&isNav=${this.isNav}`
         })
       },
+      // 点我回到首页
       navToHome(){
         uni.navigateTo({
           url:`../index/index`
